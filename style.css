@@ -1,0 +1,28 @@
+h1, h2 {
+  font-family: Oswald;
+}
+p, li{
+  font-family: Open Sans;
+}
+body {
+  color: DarkBlue;
+  background-color: ivory;
+  margin: 10px 50px 10px 50px;
+}
+img {
+  width:75px;
+  height:75px;
+  margin-right: 10px;
+}
+.column{
+  float: left;
+  width: 300px;
+  margin: 10px 10px 10px 10px
+}
+.menu{
+  float: left;
+  width: 200px;
+}
+.row {
+  display: table;
+}
