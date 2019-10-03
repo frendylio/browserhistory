@@ -1,28 +1,42 @@
 h1, h2 {
-  font-family: Oswald;
+  font-family: 'Oswald', sans;
 }
-p, li{
-  font-family: Open Sans;
+
+
+
+
+#navbar a {
+  margin-left: 75px;
+  margin-right: 75px;
 }
+
 body {
   color: DarkBlue;
-  background-color: ivory;
+  font-family: 'Open Sans', sans;
   margin: 10px 50px 10px 50px;
+  width: 950px;
+  background-color: Ivory;
 }
+
 img {
-  width:75px;
-  height:75px;
+  float: left;
   margin-right: 10px;
 }
-.column{
+
+.left {
   float: left;
   width: 300px;
-  margin: 10px 10px 10px 10px
+  padding: 1em;
 }
-.menu{
-  float: left;
-  width: 200px;
+
+.right {
+  float: right;
+  width: 300px;
+  padding: 1em;
 }
-.row {
-  display: table;
+
+.center {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 1em;
 }
